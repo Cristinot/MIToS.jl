@@ -41,11 +41,11 @@ MIToS starting point was an improvement of the algorithm published by Buslje et.
 
 **MIToS** implements several useful scripts for command line execution (without requiring Julia coding):  
   
-* **Buslje09.jl** : Calculates a Z score and a corrected MI/MIp as described on Buslje et. al. 2009 [1].
+* **Buslje09.jl** : Calculates a Z score and a corrected MI/MIp as described in Buslje et. al. 2009 [1].
 * **DownloadPDB.jl** : Downloads gzipped files from PDB.
-* **Distances.jl** : Calculates residues distances in a PDB file.
+* **Distances.jl** : Calculates residue distances in a PDB file.
 * **SplitStockholm.jl** : Splits a Stockholm file with multiple alignments into one compressed file per MSA
-* **AlignedColumns.jl** : Creates a Stockholm file with the aligned columns from a Pfam Stockholm file (insertions are deleted) saving the mapping (residue number in UniProt) and the columns in the original MSA.
+* **AlignedColumns.jl** : Creates a Stockholm file with the aligned columns from a Pfam Stockholm file (insertions are deleted) saving the mapping to Uniprot (residue number in UniProt) and to the number of columns in the original MSA.
 * **MSADescription.jl** : Calclulates the number of columns, sequences and clusters after Hobohm I clustering at 62% identity given a stockholm file as imput. It also gives the mean, standard deviation and quantiles of: sequence coverage of the MSA and gap percentage.
 
 #### References  
